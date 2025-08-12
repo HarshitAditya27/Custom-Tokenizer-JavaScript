@@ -1,0 +1,74 @@
+:root {
+  --bg: #ffe100;
+  --card: #feebf6;
+  --accent: #9ec6f3;
+  /* // E9A5F1 */
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  background: var(--bg);
+  padding: 20px;
+  color: #111827;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+h1 {
+  margin-bottom: 8px;
+}
+.card {
+  background: var(--card);
+  padding: 14px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+  margin-bottom: 16px;
+}
+textarea {
+  width: 100%;
+  min-height: 90px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #e6e9ee;
+  resize: vertical;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #e6e9ee;
+}
+.row {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+button {
+  background: var(--accent);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+}
+button[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.output {
+  background: #f2f4f7;
+  padding: 10px;
+  border-radius: 6px;
+  white-space: pre-wrap;
+  max-height: 220px;
+  overflow: auto;
+  margin-top: 10px;
+}
+footer {
+  margin-top: 10px;
+  text-align: center;
+  color: #6b7280;
+}

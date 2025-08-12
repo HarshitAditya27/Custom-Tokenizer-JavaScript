@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Tokenizer - JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Custom Tokenizer</h1>
+
+      <section class="card">
+        <h2>1. Learn vocabulary</h2>
+        <textarea
+          id="trainText"
+          placeholder="Paste training text here (will build vocab)"
+        ></textarea>
+        <div class="row">
+          <button id="learnBtn">Learn Vocabulary</button>
+          <button id="viewVocabBtn">View Vocab</button>
+        </div>
+        <pre id="vocabOutput" class="output"></pre>
+      </section>
+
+      <section class="card">
+        <h2>2. Encode text</h2>
+        <textarea id="encodeText" placeholder="Text to encode"></textarea>
+        <div class="row">
+          <button id="encodeBtn">Encode</button>
+          <button id="encodeCsvBtn">Encode (CSV)</button>
+        </div>
+        <pre id="encodedOutput" class="output"></pre>
+      </section>
+
+      <section class="card">
+        <h2>3. Decode token IDs</h2>
+        <input
+          id="decodeInput"
+          placeholder="Enter token IDs, comma separated (e.g. 2,4,5,3)"
+        />
+        <div class="row">
+          <button id="decodeBtn">Decode</button>
+        </div>
+        <pre id="decodedOutput" class="output"></pre>
+      </section>
+
+      <footer>
+        <small
+          >Special tokens:
+          &lt;PAD&gt;,&nbsp;&lt;UNK&gt;,&nbsp;&lt;START&gt;,&nbsp;&lt;END&gt;</small
+        >
+      </footer>
+    </div>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
