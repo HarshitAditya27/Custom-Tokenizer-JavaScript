@@ -24,6 +24,7 @@
 ## Screenshots  
 <img width="1886" height="908" alt="Screenshot (1694)" src="https://github.com/user-attachments/assets/e468fe7c-7704-48a8-95f4-f6625772fbb6" />
 <img width="1784" height="893" alt="Screenshot (1695)" src="https://github.com/user-attachments/assets/462ac3d9-fa23-40f2-8c88-aa56292a95bd" />
+
 ## Loved the project 💖? 
   
   If you found the project interesting, then please do give this project a star ⭐. 
